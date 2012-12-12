@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowNode" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Node Title" />
+
+        <EditText
+            android:id="@+id/editnodetitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Node body (html)" />
+
+        <EditText
+            android:id="@+id/editnodebody"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout2"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/fppromote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promoted to frontpage" />
+
+        <CheckBox
+            android:id="@+id/stickynode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sticky on frontpage" />
+
+        <CheckBox
+            android:id="@+id/nodepublished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Published" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:onClick="savenodedata" />
+
+    </LinearLayout>
+
+</RelativeLayout>

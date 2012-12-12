@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drupal for mobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_do_login_and_save">Nodes</string>
+    <string name="title_activity_parse_json">ParseJSON</string>
+    <string name="title_activity_showlist_view">ShowlistView</string>
+    <string name="title_activity_show_node">Edit node</string>
+    <string name="title_activity_overview_types">Choose a menu</string>
+    <string name="title_activity_get_taxonomy_list">Taxonomy Terms</string>
+    <string name="title_activity_show_taxonomy_terms">Taxonomy Terms</string>
+    <string name="title_activity_get_taxonomy_terms">Taxonomy Terms</string>
+    <string name="title_activity_show_taxonomy_term">Edit Term</string>
+    <string name="title_activity_drupal_site_settings">Drupal Site Settings</string>
+    <string name="title_activity_drupal_settings_overview">Settings Index</string>
+    <string name="title_activity_drupal_maintenance_settings">Maintenance Mode Settings</string>
+
+</resources>

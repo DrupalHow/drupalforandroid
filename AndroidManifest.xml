@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drupalformobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.drupalformobile.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.GetNodeList"
+            android:label="@string/title_activity_do_login_and_save" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.ParseJSON"
+            android:label="@string/title_activity_parse_json" >
+        </activity>
+
+        <receiver
+            android:name="com.example.drupalformobile.MyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+        <receiver
+            android:name="com.example.drupalformobile.MyService"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+
+        <activity
+            android:name="com.example.drupalformobile.ShowlistView"
+            android:label="@string/title_activity_showlist_view" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.ShowNode"
+            android:label="@string/title_activity_show_node" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.OverviewTypes"
+            android:label="@string/title_activity_overview_types" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.GetTaxonomyList"
+            android:label="@string/title_activity_get_taxonomy_list" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.ShowTaxonomyTerms"
+            android:label="@string/title_activity_show_taxonomy_terms" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.GetTaxonomyTerms"
+            android:label="@string/title_activity_get_taxonomy_terms" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.ShowTaxonomyTerm"
+            android:label="@string/title_activity_show_taxonomy_term" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.DrupalSiteSettings"
+            android:label="@string/title_activity_drupal_site_settings" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.DrupalSettingsOverview"
+            android:label="@string/title_activity_drupal_settings_overview" >
+        </activity>
+        <activity
+            android:name="com.example.drupalformobile.DrupalMaintenanceSettings"
+            android:label="@string/title_activity_drupal_maintenance_settings" >
+        </activity>
+    </application>
+
+</manifest>
