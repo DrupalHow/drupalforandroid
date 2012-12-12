@@ -17,3 +17,12 @@ Current functions are:
 - Edit maintenance message and enable/disable this.
 
 There is no extra drupal module needed except for Services module with REST enabled.
+
+Where can I download the APK?
+=============================
+
+Currently this app is not yet available on the app store.
+As soon as it is stable I will try to get it in.
+
+Cant wait? 
+Inside the BIN directory is the latest .apk file that you can upload and install on your phone.
